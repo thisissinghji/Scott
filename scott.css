@@ -1,0 +1,64 @@
+body{
+    background-image: url(bhg.jpg);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+}
+
+.left{
+    color: white;
+    text-shadow: 2px 3px black;
+    display: flex;
+    position: absolute;
+    margin: auto 10px;
+    left: 200px;
+    font-size:40px;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+.right{
+    padding-left: 500px;
+    display: flex;
+    width: 60%;
+    margin: 22px auto;
+}
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: grey;
+    text-decoration: none;
+    padding: 2px 25px;
+}
+.navbar li a:hover{
+    color: orangered;
+}
+.mid{
+    
+    width: 60%;
+    float:right;
+    padding: 0px;
+
+}
+.cs{
+    font-size: 63px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ora{
+    color: orangered;
+}
+.cum{
+    color:gray;
+    font-size:30px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
